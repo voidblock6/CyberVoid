@@ -53,6 +53,7 @@ public class CyberVoid {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.TRANSISTOR);
             event.accept(ModItems.EMPTY_CIRCUIT);
+            event.accept(ModItems.CPU);
         }
     }
 
