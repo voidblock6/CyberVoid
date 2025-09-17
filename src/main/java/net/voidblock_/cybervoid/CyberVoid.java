@@ -54,6 +54,8 @@ public class CyberVoid {
             event.accept(ModItems.TRANSISTOR);
             event.accept(ModItems.EMPTY_CIRCUIT);
             event.accept(ModItems.CPU);
+            event.accept(ModItems.RESISTOR);
+            event.accept(ModItems.CAPACITOR);
         }
     }
 

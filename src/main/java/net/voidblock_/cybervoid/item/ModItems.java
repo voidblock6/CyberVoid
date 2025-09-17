@@ -20,6 +20,12 @@ public static final DeferredItem<Item> EMPTY_CIRCUIT = ITEMS.register("empty_cir
 public static final DeferredItem<Item> CPU = ITEMS.register("cpu",
         ()-> new Item(new Item.Properties()));
 
+public static final DeferredItem<Item> RESISTOR = ITEMS.register("resistor",
+        ()-> new Item(new Item.Properties()));
+
+public static final DeferredItem<Item> CAPACITOR = ITEMS.register("capacitor",
+        ()-> new Item(new Item.Properties()));
+
 
 
 public static void register(IEventBus eventBus) {

@@ -1,5 +1,7 @@
 {
   "item.cybervoid.transistor": "Transistor",
   "item.cybervoid.empty_circuit": "Empty Circuit",
-  "item.cybervoid.cpu": "CPU"
+  "item.cybervoid.cpu": "CPU",
+  "item.cybervoid.resistor": "Resistor",
+  "item.cybervoid.capacitor": "Capacitor"
 }
