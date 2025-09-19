@@ -1,5 +1,6 @@
 package net.voidblock_.cybervoid;
 
+import net.voidblock_.cybervoid.block.ModBlocks;
 import net.voidblock_.cybervoid.item.ModItems;
 import org.slf4j.Logger;
 
@@ -36,6 +37,7 @@ public class CyberVoid {
 
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -56,8 +58,15 @@ public class CyberVoid {
             event.accept(ModItems.CPU);
             event.accept(ModItems.RESISTOR);
             event.accept(ModItems.CAPACITOR);
+            event.accept(ModItems.MOTHERBOARD);
+
         }
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.AQUA_CYBER_BLOCK);
+        }
+
     }
+
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent

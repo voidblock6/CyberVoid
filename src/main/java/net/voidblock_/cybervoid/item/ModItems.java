@@ -26,6 +26,9 @@ public static final DeferredItem<Item> RESISTOR = ITEMS.register("resistor",
 public static final DeferredItem<Item> CAPACITOR = ITEMS.register("capacitor",
         ()-> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> MOTHERBOARD = ITEMS.register("motherboard",
+            ()-> new Item(new Item.Properties()));
+
 
 
 public static void register(IEventBus eventBus) {

@@ -3,5 +3,7 @@
   "item.cybervoid.empty_circuit": "Empty Circuit",
   "item.cybervoid.cpu": "CPU",
   "item.cybervoid.resistor": "Resistor",
-  "item.cybervoid.capacitor": "Capacitor"
+  "item.cybervoid.capacitor": "Capacitor",
+  "item.cybervoid.motherboard": "Motherboard",
+  "block.cybervoid.aqua_cyber_block": "Aqua Cyber Block"
 }
