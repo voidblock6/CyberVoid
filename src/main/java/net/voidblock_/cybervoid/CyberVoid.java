@@ -63,6 +63,8 @@ public class CyberVoid {
         }
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.AQUA_CYBER_BLOCK);
+            event.accept(ModBlocks.LIME_CYBER_BLOCK);
+            event.accept(ModBlocks.RED_CYBER_BLOCK);
         }
 
     }

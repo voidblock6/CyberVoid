@@ -5,5 +5,7 @@
   "item.cybervoid.resistor": "Resistor",
   "item.cybervoid.capacitor": "Capacitor",
   "item.cybervoid.motherboard": "Motherboard",
-  "block.cybervoid.aqua_cyber_block": "Aqua Cyber Block"
+  "block.cybervoid.aqua_cyber_block": "Aqua Cyber Block",
+  "block.cybervoid.lime_cyber_block": "Lime Cyber Block",
+  "block.cybervoid.red_cyber_block": "Red Cyber Block"
 }

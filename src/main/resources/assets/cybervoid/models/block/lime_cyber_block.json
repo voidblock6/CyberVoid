@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_all",
         "textures": {
-          "all": "cybervoid:block/aqua_cyber_block"
+          "all": "cybervoid:block/lime_cyber_block"
         },
   "render_type": "minecraft:translucent"
 }

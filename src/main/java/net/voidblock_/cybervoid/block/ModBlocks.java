@@ -22,6 +22,14 @@ public class ModBlocks {
             ()-> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.GLASS)));
 
+    public static final DeferredBlock<Block> LIME_CYBER_BLOCK = registerBlock("lime_cyber_block",
+            ()-> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.GLASS)));
+
+    public static final DeferredBlock<Block> RED_CYBER_BLOCK = registerBlock("red_cyber_block",
+            ()-> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.GLASS)));
+
 
 
 
