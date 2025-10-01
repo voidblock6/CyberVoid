@@ -1,6 +1,7 @@
 package net.voidblock_.cybervoid;
 
 import net.voidblock_.cybervoid.block.ModBlocks;
+import net.voidblock_.cybervoid.item.ModCreativeModeTabs;
 import net.voidblock_.cybervoid.item.ModItems;
 import org.slf4j.Logger;
 
@@ -36,6 +37,11 @@ public class CyberVoid {
         NeoForge.EVENT_BUS.register(this);
 
 
+        ModCreativeModeTabs.register(modEventBus);
+
+
+
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -59,6 +65,7 @@ public class CyberVoid {
             event.accept(ModItems.RESISTOR);
             event.accept(ModItems.CAPACITOR);
             event.accept(ModItems.MOTHERBOARD);
+            event.accept(ModItems.IRON_ROD);
 
         }
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
