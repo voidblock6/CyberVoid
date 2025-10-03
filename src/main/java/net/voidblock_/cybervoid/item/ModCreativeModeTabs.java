@@ -21,8 +21,14 @@ public class ModCreativeModeTabs {
             ()-> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.MOTHERBOARD.get()))
                     .title(Component.translatable("creativetab.cybervoid.items"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.MOTHERBOARD);
+                        output.accept(ModItems.TRANSISTOR);
+                        output.accept(ModItems.EMPTY_CIRCUIT);
                         output.accept(ModItems.CPU);
+                        output.accept(ModItems.RESISTOR);
+                        output.accept(ModItems.CAPACITOR);
+                        output.accept(ModItems.MOTHERBOARD);
+                        output.accept(ModItems.IRON_ROD);
+
 
 
 

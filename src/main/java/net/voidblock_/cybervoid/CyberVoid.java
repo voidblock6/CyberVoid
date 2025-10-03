@@ -59,19 +59,11 @@ public class CyberVoid {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.TRANSISTOR);
-            event.accept(ModItems.EMPTY_CIRCUIT);
-            event.accept(ModItems.CPU);
-            event.accept(ModItems.RESISTOR);
-            event.accept(ModItems.CAPACITOR);
-            event.accept(ModItems.MOTHERBOARD);
-            event.accept(ModItems.IRON_ROD);
+
 
         }
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.AQUA_CYBER_BLOCK);
-            event.accept(ModBlocks.LIME_CYBER_BLOCK);
-            event.accept(ModBlocks.RED_CYBER_BLOCK);
         }
 
     }
