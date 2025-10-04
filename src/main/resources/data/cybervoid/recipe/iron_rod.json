@@ -2,8 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    " a ",
-    " a "
+    "a",
+    "a",
+    "a"
   ],
   "key": {
     "a": {
@@ -11,7 +12,7 @@
     }
   },
   "result": {
-    "item": "cybervoid:iron_rod",
+    "id": "cybervoid:iron_rod",
     "count": 1
   }
 }
