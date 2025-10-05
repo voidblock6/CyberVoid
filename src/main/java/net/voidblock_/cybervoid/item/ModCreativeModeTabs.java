@@ -34,6 +34,8 @@ public class ModCreativeModeTabs {
 
 
 
+
+
                     }).build());
 
     public static final Supplier<CreativeModeTab> CYBERVOID_BLOCKS_TAB = CREATIVE_MODE_TAB.register("cybervoid_blocks_tab",
@@ -45,6 +47,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.AQUA_CYBER_BLOCK);
                         output.accept(ModBlocks.RED_CYBER_BLOCK);
                         output.accept(ModBlocks.LIME_CYBER_BLOCK);
+                        output.accept(ModBlocks.SILICON_ORE);
+                        output.accept(ModBlocks.DEEPSLATE_SILICON_ORE);
 
 
 
