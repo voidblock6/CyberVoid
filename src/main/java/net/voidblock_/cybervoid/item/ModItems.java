@@ -32,6 +32,9 @@ public static final DeferredItem<Item> MOTHERBOARD = ITEMS.register("motherboard
     public static final DeferredItem<Item> IRON_ROD = ITEMS.register("iron_rod",
             ()-> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> RAW_SILICON = ITEMS.register("raw_silicon",
+            ()-> new Item(new Item.Properties()));
+
 
 
 public static void register(IEventBus eventBus) {
