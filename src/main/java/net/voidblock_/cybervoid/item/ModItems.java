@@ -35,6 +35,12 @@ public static final DeferredItem<Item> MOTHERBOARD = ITEMS.register("motherboard
     public static final DeferredItem<Item> RAW_SILICON = ITEMS.register("raw_silicon",
             ()-> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> SILICON_DUST = ITEMS.register("silicon_dust",
+            ()-> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> SILICON_INGOT = ITEMS.register("silicon_ingot",
+            ()-> new Item(new Item.Properties()));
+
 
 
 public static void register(IEventBus eventBus) {

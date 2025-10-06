@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "item": "cybervoid:silicon_dust"
+  },
+  "result": {
+    "id": "cybervoid:silicon_ingot"
+  },
+  "experience": 0.7,
+  "cookingtime": 200
+}
