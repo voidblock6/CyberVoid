@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "cybervoid:raw_silicon"
+  },
+  "result": {
+    "id": "cybervoid:silicon_dust",
+    "count": 1
+  }
+}
