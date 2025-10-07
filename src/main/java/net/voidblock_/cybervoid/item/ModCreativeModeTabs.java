@@ -48,6 +48,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.LIME_CYBER_BLOCK);
                         output.accept(ModBlocks.SILICON_ORE);
                         output.accept(ModBlocks.DEEPSLATE_SILICON_ORE);
+                        output.accept(ModBlocks.SILICON_BLOCK);
 
 
 

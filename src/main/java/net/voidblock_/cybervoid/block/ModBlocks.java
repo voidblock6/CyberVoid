@@ -38,6 +38,10 @@ public class ModBlocks {
             ()-> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
+    public static final DeferredBlock<Block> SILICON_BLOCK = registerBlock("silicon_block",
+            ()-> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+
 
 
 
