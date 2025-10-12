@@ -31,6 +31,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_SILICON);
                         output.accept(ModItems.SILICON_DUST);
                         output.accept(ModItems.SILICON_INGOT);
+                        output.accept(ModItems.HAMMER);
+                        output.accept(ModItems.IRON_HAMMER);
 
 
 

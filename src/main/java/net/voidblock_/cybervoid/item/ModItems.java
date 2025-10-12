@@ -41,9 +41,16 @@ public static final DeferredItem<Item> MOTHERBOARD = ITEMS.register("motherboard
     public static final DeferredItem<Item> SILICON_INGOT = ITEMS.register("silicon_ingot",
             ()-> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> HAMMER = ITEMS.register("hammer",
+            ()-> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> IRON_HAMMER = ITEMS.register("iron_hammer",
+            ()-> new Item(new Item.Properties()));
 
 
-public static void register(IEventBus eventBus) {
+
+
+    public static void register(IEventBus eventBus) {
     ITEMS.register(eventBus);
 
     }
