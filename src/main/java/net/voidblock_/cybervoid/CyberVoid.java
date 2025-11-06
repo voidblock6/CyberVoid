@@ -40,8 +40,6 @@ public class CyberVoid {
         ModCreativeModeTabs.register(modEventBus);
 
 
-
-
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 

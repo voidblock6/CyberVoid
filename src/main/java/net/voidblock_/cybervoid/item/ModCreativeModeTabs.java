@@ -18,7 +18,7 @@ public class ModCreativeModeTabs {
 
 
     public static final Supplier<CreativeModeTab> CYBERVOID_ITEMS_TAB = CREATIVE_MODE_TAB.register("cybervoid_items_tab",
-            ()-> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.MOTHERBOARD.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.MOTHERBOARD.get()))
                     .title(Component.translatable("creativetab.cybervoid.items"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.TRANSISTOR);
@@ -35,12 +35,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.IRON_HAMMER);
 
 
-
-
                     }).build());
 
     public static final Supplier<CreativeModeTab> CYBERVOID_BLOCKS_TAB = CREATIVE_MODE_TAB.register("cybervoid_blocks_tab",
-            ()-> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.AQUA_CYBER_BLOCK))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.AQUA_CYBER_BLOCK))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(CyberVoid.MOD_ID, "cybervoid_items_tab"))
 
                     .title(Component.translatable("creativetab.cybervoid.blocks"))
@@ -53,21 +51,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SILICON_BLOCK);
 
 
-
-
-
                     }).build());
-
-
-
-
-
-
 
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TAB.register(eventBus);
-
 
 
     }
