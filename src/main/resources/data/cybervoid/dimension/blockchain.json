@@ -1,0 +1,66 @@
+{
+  "type": "cybervoid:custom_dimension_type",
+  "generator": {
+    "settings": "cybervoid:custom_dimension_settings",
+    "type": "minecraft:noise",
+    "biome_source": {
+      "biomes": [
+        {
+          "biome": "cybervoid:highlsnds",
+          "parameters": {
+            "continentalness": [
+              -0.19,
+              -0.11
+            ],
+            "depth": 0.0,
+            "erosion": [
+              -1.0,
+              -0.375
+            ],
+            "humidity": [
+              -1.0,
+              -0.35
+            ],
+            "offset": 0.0,
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "weirdness": [
+              -0.9333,
+              -0.7666
+            ]
+          }
+        },
+        {
+          "biome": "rename_me:lowlands",
+          "parameters": {
+            "continentalness": [
+              0.03,
+              1.0
+            ],
+            "depth": 0.0,
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              -0.1,
+              0.1
+            ],
+            "offset": 0.0,
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "weirdness": [
+              -1.0,
+              -0.9333
+            ]
+          }
+        }
+      ],
+      "type": "minecraft:multi_noise"
+    }
+  }
+}
