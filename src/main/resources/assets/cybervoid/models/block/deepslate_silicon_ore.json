@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-        "textures": {
-          "all": "cybervoid:block/deepslate_silicon_ore"
-        }
-
-}

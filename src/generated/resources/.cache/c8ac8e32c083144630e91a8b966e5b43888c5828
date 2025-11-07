@@ -1,0 +1,4 @@
+// 1.21.1	2025-11-07T16:14:45.5238935	Tags for minecraft:block mod id cybervoid
+ff976635e1ee52538008f2782f27891d143a23ca data/minecraft/tags/block/mineable/pickaxe.json
+9d2e94e378dc27bea03e9fdbf3d478e24ffa3717 data/minecraft/tags/block/needs_diamond_tool.json
+3d9556f8ffd4b64a5f32911207531dc294f836d1 data/minecraft/tags/block/needs_iron_tool.json
