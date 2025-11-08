@@ -4,7 +4,7 @@
     "Name": "minecraft:stone"
   },
   "default_fluid": {
-    "Name": "cybervoid:deepslate",
+    "Name": "cybervoid:aqua_cyber_block",
     "Properties": {
       "level": "0"
     }

@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/glass",
+  "parent": "minecraft:block/cube_all",
   "textures": {
     "all": "cybervoid:block/aqua_cyber_block",
     "emissive": "cybervoid:block/aqua_cyber_block_emissive"
