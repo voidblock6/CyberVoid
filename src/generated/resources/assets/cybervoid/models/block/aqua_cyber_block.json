@@ -1,7 +1,8 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/glass",
   "textures": {
-    "all": "cybervoid:block/aqua_cyber_block"
+    "all": "cybervoid:block/aqua_cyber_block",
+    "emissive": "cybervoid:block/aqua_cyber_block_emissive"
   },
   "render_type": "minecraft:translucent"
 }

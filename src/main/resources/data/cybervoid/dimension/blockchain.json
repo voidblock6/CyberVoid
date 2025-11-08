@@ -6,7 +6,7 @@
     "biome_source": {
       "biomes": [
         {
-          "biome": "cybervoid:highlsnds",
+          "biome": "cybervoid:highlands",
           "parameters": {
             "continentalness": [
               -0.19,
@@ -33,7 +33,7 @@
           }
         },
         {
-          "biome": "rename_me:lowlands",
+          "biome": "cybervoid:lowlands",
           "parameters": {
             "continentalness": [
               0.03,
