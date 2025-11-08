@@ -1,8 +1,15 @@
 {
+  "loader": "fusion:model",
   "parent": "minecraft:block/cube_all",
+  "render_type": "minecraft:translucent",
   "textures": {
-    "all": "cybervoid:block/aqua_cyber_block",
-    "emissive": "cybervoid:block/aqua_cyber_block_emissive"
+    "all": "cybervoid:block/aqua_cyber_block"
   },
-  "render_type": "minecraft:translucent"
+  "fusion": {
+    "type": "connecting",
+    "layout": "simple"
+  },
+  "connections": [
+    { "type": "is_same_block" }
+  ]
 }
