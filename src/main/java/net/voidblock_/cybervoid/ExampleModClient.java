@@ -1,6 +1,8 @@
 package net.voidblock_.cybervoid;
 
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
@@ -9,6 +11,7 @@ import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.neoforge.client.gui.ConfigurationScreen;
 import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
+import net.voidblock_.cybervoid.block.ModBlocks;
 
 // This class will not load on dedicated servers. Accessing client side code from here is safe.
 @Mod(value = CyberVoid.MOD_ID, dist = Dist.CLIENT)
@@ -27,5 +30,9 @@ public class ExampleModClient {
         // Some client setup code
         CyberVoid.LOGGER.info("HELLO FROM CLIENT SETUP");
         CyberVoid.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+
+        event.enqueueWork(() -> {
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.AQUA_CYBER_BLOCK.get(), RenderType.translucent());
+        });
     }
 }

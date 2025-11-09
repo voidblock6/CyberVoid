@@ -5,6 +5,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.TransparentBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -19,15 +20,16 @@ public class ModBlocks {
             DeferredRegister.createBlocks(CyberVoid.MOD_ID);
 
     public static final DeferredBlock<Block> AQUA_CYBER_BLOCK = registerBlock("aqua_cyber_block",
-            () -> new Block(BlockBehaviour.Properties.of()
+            () -> new TransparentBlock(BlockBehaviour.Properties.of()
                     .strength(3f).requiresCorrectToolForDrops().sound(SoundType.GLASS).noOcclusion()));
 
+
     public static final DeferredBlock<Block> LIME_CYBER_BLOCK = registerBlock("lime_cyber_block",
-            () -> new Block(BlockBehaviour.Properties.of()
+            () -> new TransparentBlock(BlockBehaviour.Properties.of()
                     .strength(3f).requiresCorrectToolForDrops().sound(SoundType.GLASS).noOcclusion()));
 
     public static final DeferredBlock<Block> RED_CYBER_BLOCK = registerBlock("red_cyber_block",
-            () -> new Block(BlockBehaviour.Properties.of()
+            () -> new TransparentBlock(BlockBehaviour.Properties.of()
                     .strength(3f).requiresCorrectToolForDrops().sound(SoundType.GLASS).noOcclusion()));
 
     public static final DeferredBlock<Block> SILICON_ORE = registerBlock("silicon_ore",

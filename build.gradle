@@ -113,7 +113,6 @@ configurations {
 
 dependencies {
 
-     "maven.modrinth:fusion-connected-textures:<fusion-version>-neoforge-mc<minecraft-version>"
     
     // Example optional mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
@@ -190,17 +189,7 @@ idea {
     }
 }
 
-repositories {
-    exclusiveContent {
-        forRepository {
-            maven {
-                name = "Modrinth"
-                url = "https://api.modrinth.com/maven"
-            }
-        }
-        filter {
-            includeGroup "maven.modrinth"
-        }
-    }
-}
+
+
+
 
