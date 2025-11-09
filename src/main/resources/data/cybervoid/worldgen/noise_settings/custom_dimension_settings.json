@@ -9,12 +9,12 @@
       "level": "0"
     }
   },  
-  "sea_level": 60,
+  "sea_level": 63,
   "ore_veins_enabled": false,
   "disable_mob_generation": false,
   "legacy_random_source": false,
   "noise": {
-    "height": 384,
+    "height": 512,
     "min_y": -64,
     "size_horizontal": 1,
     "size_vertical": 2
@@ -444,7 +444,7 @@
                               "if_true": {
                                 "type": "minecraft:biome",
                                 "biome_is": [
-                                  "minecraft:windswept_hills"
+                                  "cybervoid:highlands"
                                 ]
                               },
                               "then_run": {
@@ -479,7 +479,7 @@
                               "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                  "Name": "minecraft:grass_block",
+                                  "Name": "minecraft:deepslate",
                                   "Properties": {
                                     "snowy": "false"
                                   }
@@ -489,7 +489,7 @@
                             {
                               "type": "minecraft:block",
                               "result_state": {
-                                "Name": "minecraft:dirt"
+                                "Name": "minecraft:stone"
                               }
                             }
                           ]
@@ -531,7 +531,8 @@
                               "if_true": {
                                 "type": "minecraft:biome",
                                 "biome_is": [
-                                  "minecraft:windswept_hills"
+                                  "cybervoid:highlands",
+                                  "cybervoid:lowlands"
                                 ]
                               },
                               "then_run": {
@@ -555,7 +556,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minecraft:dirt"
+                            "Name": "minecraft:stone"
                           }
                         }
                       ]

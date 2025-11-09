@@ -1,0 +1,2 @@
+line 482, grass normally
+line 492, dirt normally or 558
