@@ -31,8 +31,5 @@ public class ExampleModClient {
         CyberVoid.LOGGER.info("HELLO FROM CLIENT SETUP");
         CyberVoid.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
 
-        event.enqueueWork(() -> {
-            ItemBlockRenderTypes.setRenderLayer(ModBlocks.AQUA_CYBER_BLOCK.get(), RenderType.translucent());
-        });
     }
 }
