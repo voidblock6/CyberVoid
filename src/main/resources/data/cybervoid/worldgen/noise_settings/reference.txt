@@ -1,2 +1,6 @@
 line 482, grass normally
 line 492, dirt normally or 558
+
+line 52 for higher gen
+line 57 ^
+line 65 ^
