@@ -33,6 +33,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SILICON_INGOT);
                         output.accept(ModItems.HAMMER);
                         output.accept(ModItems.IRON_HAMMER);
+                        output.accept(ModItems.BLOCKCOIN);
 
 
                     }).build());

@@ -35,22 +35,22 @@
         "type": "minecraft:squeeze",
         "argument": {
           "type": "minecraft:mul",
-          "argument1": 15.0,
+          "argument1": 0.1,
           "argument2": {
             "type": "minecraft:interpolated",
             "argument": {
               "type": "minecraft:blend_density",
               "argument": {
                 "type": "minecraft:add",
-                "argument1": 0.3,
+                "argument1": 1.99999999999999999999999999999999999999999,
                 "argument2": {
                   "type": "minecraft:mul",
                   "argument1": {
                     "type": "minecraft:y_clamped_gradient",
                     "from_value": 0.0,
                     "from_y": -64,
-                    "to_value": 1.5,
-                    "to_y": -40
+                    "to_value": 1.999999999999999,
+                    "to_y": 512
                   },
                   "argument2": {
                     "type": "minecraft:add",

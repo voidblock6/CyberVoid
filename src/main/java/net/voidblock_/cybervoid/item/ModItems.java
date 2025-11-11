@@ -47,6 +47,9 @@ public class ModItems {
     public static final DeferredItem<Item> IRON_HAMMER = ITEMS.register("iron_hammer",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> BLOCKCOIN = ITEMS.register("blockcoin",
+            () -> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

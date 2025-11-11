@@ -11,6 +11,7 @@
   "item.cybervoid.silicon_ingot": "Silicon Ingot",
   "item.cybervoid.hammer": "Stone Hammer",
   "item.cybervoid.iron_hammer": "Iron Hammer",
+  "item.cybervoid.blockcoin": "BlockCoin",
 
   "block.cybervoid.aqua_cyber_block": "Aqua Cyber Block",
   "block.cybervoid.lime_cyber_block": "Lime Cyber Block",
@@ -21,5 +22,6 @@
 
   "creativetab.cybervoid.items": "CyberVoid Items",
   "creativetab.cybervoid.blocks": "CyberVoid Blocks"
+
 
 }

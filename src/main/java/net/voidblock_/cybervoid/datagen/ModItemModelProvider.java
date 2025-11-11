@@ -16,6 +16,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         basicItem(ModItems.CPU.get());
         basicItem(ModItems.MOTHERBOARD.get());
+        basicItem(ModItems.BLOCKCOIN.get());
 
         basicItem(ModItems.HAMMER.get());
         basicItem(ModItems.IRON_HAMMER.get());
