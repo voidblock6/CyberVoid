@@ -1,5 +1,6 @@
-// 1.21.1	2025-11-06T16:52:20.4981806	Loot Tables
+// 1.21.1	2025-11-11T16:09:27.3186095	Loot Tables
 5b92f0dd3ff7db22be61327c47651c1a7f87df22 data/cybervoid/loot_table/blocks/aqua_cyber_block.json
+134d063944544c0e636a2bb2b5c521c5a03e154e data/cybervoid/loot_table/blocks/blockcoin_block.json
 04d3e6b50f5345a01df2ac7d4fcff5a6f80e2d93 data/cybervoid/loot_table/blocks/deepslate_silicon_ore.json
 b28938bbb851b8d6b575ae97480280d9c5ddcc6d data/cybervoid/loot_table/blocks/lime_cyber_block.json
 fee97241326c2c1b52d422e43feab34bc89551b9 data/cybervoid/loot_table/blocks/red_cyber_block.json

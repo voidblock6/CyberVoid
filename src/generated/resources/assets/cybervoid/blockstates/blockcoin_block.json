@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cybervoid:block/blockcoin_block"
+    }
+  }
+}

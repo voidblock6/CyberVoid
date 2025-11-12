@@ -40,9 +40,14 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
+
     public static final DeferredBlock<Block> SILICON_BLOCK = registerBlock("silicon_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+
+    public static final DeferredBlock<Block> BLOCKCOIN_BLOCK = registerBlock("blockcoin_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(5f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

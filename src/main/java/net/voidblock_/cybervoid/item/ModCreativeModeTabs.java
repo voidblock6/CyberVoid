@@ -50,6 +50,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SILICON_ORE);
                         output.accept(ModBlocks.DEEPSLATE_SILICON_ORE);
                         output.accept(ModBlocks.SILICON_BLOCK);
+                        output.accept(ModBlocks.BLOCKCOIN_BLOCK);
 
 
                     }).build());

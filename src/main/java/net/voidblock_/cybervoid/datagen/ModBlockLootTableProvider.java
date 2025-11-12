@@ -23,6 +23,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.AQUA_CYBER_BLOCK.get());
         dropSelf(ModBlocks.LIME_CYBER_BLOCK.get());
         dropSelf(ModBlocks.RED_CYBER_BLOCK.get());
+        dropSelf(ModBlocks.BLOCKCOIN_BLOCK.get());
 
         add(ModBlocks.SILICON_ORE.get(),
                 block -> createOreDrop(ModBlocks.SILICON_ORE.get(), ModItems.RAW_SILICON.get()));

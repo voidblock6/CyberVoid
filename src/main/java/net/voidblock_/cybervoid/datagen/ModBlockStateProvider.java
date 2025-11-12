@@ -22,6 +22,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWhitItem(ModBlocks.AQUA_CYBER_BLOCK);
         blockWhitItem(ModBlocks.RED_CYBER_BLOCK);
         blockWhitItem(ModBlocks.LIME_CYBER_BLOCK);
+        blockWhitItem(ModBlocks.BLOCKCOIN_BLOCK);
 
 
     }
