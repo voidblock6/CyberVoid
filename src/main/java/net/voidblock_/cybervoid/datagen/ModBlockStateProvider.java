@@ -19,6 +19,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWhitItem(ModBlocks.SILICON_ORE);
         blockWhitItem(ModBlocks.DEEPSLATE_SILICON_ORE);
 
+
         blockWhitItem(ModBlocks.AQUA_CYBER_BLOCK);
         blockWhitItem(ModBlocks.RED_CYBER_BLOCK);
         blockWhitItem(ModBlocks.LIME_CYBER_BLOCK);
