@@ -176,7 +176,7 @@
               "cybervoid:lowlands"
             ]
           },
-          "then_run": 0.9999999999999999999999999,
+          "then_run": -0.5,
           "else_run": 0.0
         }
       },
