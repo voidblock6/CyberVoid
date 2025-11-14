@@ -1,0 +1,4 @@
+// 1.21.1	2025-11-14T17:22:01.0161304	Registries
+4a33a07597e860b8ef1cfd120a2e2a5ca4c5227c data/cybervoid/neoforge/biome_modifier/add_silicon_ore.json
+c09830cd86b14fb675e93d0a5248d6077592f367 data/cybervoid/worldgen/configured_feature/silicon_ore.json
+21307684eb2f7cb60ff07deea8668f3f526c3a22 data/cybervoid/worldgen/placed_feature/silicon_ore_placed.json
