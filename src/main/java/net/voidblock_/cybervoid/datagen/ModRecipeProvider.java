@@ -8,6 +8,7 @@ import net.minecraft.world.level.ItemLike;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
 import net.voidblock_.cybervoid.block.ModBlocks;
 import net.voidblock_.cybervoid.item.ModItems;
+import net.voidblock_.cybervoid.util.ModTags;
 
 
 import java.util.List;
@@ -48,9 +49,11 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,ModItems.SILICON_DUST.get(),2 )
                 .requires(ModItems.RAW_SILICON)
-                .requires(ModItems.IRON_HAMMER)
-                .unlockedBy("has_silicon_block",  has(ModBlocks.SILICON_BLOCK))
+                .requires(ModTags.Items.HAMMERS)
+                .unlockedBy("has_raw_silicon",  has(ModItems.RAW_SILICON))
                 .save(recipeOutput);
+
+
 
 
 

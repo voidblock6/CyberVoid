@@ -1,11 +1,11 @@
-// 1.21.1	2025-11-21T16:49:32.111241	Recipes
+// 1.21.1	2025-11-21T18:38:31.6891412	Recipes
 20f8627ac51f64f650f6bf203916893db2d4cec5 data/cybervoid/advancement/recipes/misc/blockcoin_block.json
 7bb5f1da4f112ad9dc5ffbacbee62fcfe12246cd data/cybervoid/advancement/recipes/misc/silicon_block.json
-14d01a54dbe24697ec1b0d4e4790a5f98cd11478 data/cybervoid/advancement/recipes/misc/silicon_dust.json
+657c01fdcfef122df17117b50019d07c8313f4ca data/cybervoid/advancement/recipes/misc/silicon_dust.json
 efe635ff56d0bde0b6d9ff2d6c3d41d04b070691 data/cybervoid/advancement/recipes/misc/silicon_ingot.json
 c85c10cd8bda0c850ebbf367055f069731f0bcc8 data/cybervoid/recipe/blockcoin_block.json
 b3a7087eb977e6329f6ff28d8a2841d7d63f575a data/cybervoid/recipe/silicon_block.json
-012e17c35c68c3c699cd708a5bf44d0b4131f86b data/cybervoid/recipe/silicon_dust.json
+a54195d075d40f0004cf0e455ec276222d5639cf data/cybervoid/recipe/silicon_dust.json
 c5c7e4ec70dd639d7c868976006608c17627bdd4 data/cybervoid/recipe/silicon_ingot.json
 ff4b973733cdb0d5f3688c8048e4d449f3af3801 data/minecraft/advancement/recipes/misc/silicon_ingot_from_smelting_deepslate_silicon_ore.json
 28234822402986c3b9d42a855ca6bbb2ef355e7f data/minecraft/advancement/recipes/misc/silicon_ingot_from_smelting_raw_silicon.json

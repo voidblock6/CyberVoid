@@ -43,10 +43,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final DeferredItem<Item> HAMMER = ITEMS.register("hammer",
-            () -> new HammerItem(new Item.Properties().durability(131).stacksTo(1)));
+            () -> new HammerItem(new Item.Properties().durability(56).stacksTo(1)));
 
     public static final DeferredItem<Item> IRON_HAMMER = ITEMS.register("iron_hammer",
-            () -> new HammerItem(new Item.Properties().durability(250).stacksTo(1)));
+            () -> new HammerItem(new Item.Properties().durability(150).stacksTo(1)));
 
     public static final DeferredItem<Item> BLOCKCOIN = ITEMS.register("blockcoin",
             () -> new Item(new Item.Properties()));
