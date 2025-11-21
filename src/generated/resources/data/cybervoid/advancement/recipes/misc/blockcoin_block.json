@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_blockcoin": {
+      "conditions": {
+        "items": [
+          {
+            "items": "cybervoid:blockcoin"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "cybervoid:blockcoin_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_blockcoin"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "cybervoid:blockcoin_block"
+    ]
+  }
+}

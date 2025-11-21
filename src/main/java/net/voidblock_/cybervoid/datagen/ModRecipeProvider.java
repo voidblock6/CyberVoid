@@ -9,6 +9,7 @@ import net.neoforged.neoforge.common.conditions.IConditionBuilder;
 import net.voidblock_.cybervoid.block.ModBlocks;
 import net.voidblock_.cybervoid.item.ModItems;
 
+
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
@@ -21,7 +22,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     protected void buildRecipes(RecipeOutput recipeOutput) {
         super.buildRecipes(recipeOutput);
         List<ItemLike> SILICON_SMELTABLES = List.of(ModItems.SILICON_DUST,
-                ModBlocks.SILICON_ORE, ModBlocks.DEEPSLATE_SILICON_ORE);
+                ModBlocks.SILICON_ORE, ModBlocks.DEEPSLATE_SILICON_ORE, ModItems.RAW_SILICON);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SILICON_BLOCK.get())
                 .pattern("BBB")
@@ -31,6 +32,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_silicon_ingot", has(ModItems.SILICON_INGOT))
                 .save(recipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BLOCKCOIN_BLOCK.get())
+                .pattern("BBB")
+                .pattern("BBB")
+                .pattern("BBB")
+                .define('B', ModItems.BLOCKCOIN.get())
+                .unlockedBy("has_blockcoin", has(ModItems.BLOCKCOIN))
+                .save(recipeOutput);
 
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,ModItems.SILICON_INGOT.get(),9 )
@@ -38,7 +46,18 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_silicon_block",  has(ModBlocks.SILICON_BLOCK))
                 .save(recipeOutput);
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,ModItems.SILICON_DUST.get(),2 )
+                .requires(ModItems.RAW_SILICON)
+                .requires(ModItems.IRON_HAMMER)
+                .unlockedBy("has_silicon_block",  has(ModBlocks.SILICON_BLOCK))
+                .save(recipeOutput);
+
+
+
+
         oreSmelting(recipeOutput, SILICON_SMELTABLES, RecipeCategory.MISC, ModItems.SILICON_INGOT.get(),0.25f, 200, "silicon" );
 
+
+        }
     }
-}
+

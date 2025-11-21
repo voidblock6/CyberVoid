@@ -5,6 +5,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.voidblock_.cybervoid.CyberVoid;
+import net.voidblock_.cybervoid.item.custom.HammerItem;
 
 
 public class ModItems {
@@ -42,10 +43,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final DeferredItem<Item> HAMMER = ITEMS.register("hammer",
-            () -> new Item(new Item.Properties()));
+            () -> new HammerItem(new Item.Properties().durability(131).stacksTo(1)));
 
     public static final DeferredItem<Item> IRON_HAMMER = ITEMS.register("iron_hammer",
-            () -> new Item(new Item.Properties()));
+            () -> new HammerItem(new Item.Properties().durability(250).stacksTo(1)));
 
     public static final DeferredItem<Item> BLOCKCOIN = ITEMS.register("blockcoin",
             () -> new Item(new Item.Properties()));
@@ -55,4 +56,5 @@ public class ModItems {
         ITEMS.register(eventBus);
 
     }
+
 }
