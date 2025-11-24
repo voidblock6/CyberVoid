@@ -105,6 +105,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_iron_ingot",  has(Items.IRON_INGOT))
                 .save(recipeOutput);
 
+        //silicon sheet from smashing
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,ModItems.SILICON_SHEET.get())
+                .requires(ModItems.SILICON_INGOT)
+                .requires(ModTags.Items.HAMMERS)
+                .unlockedBy("has_silicon_ingot",  has(ModItems.SILICON_INGOT))
+                .save(recipeOutput);
+
 
 
 

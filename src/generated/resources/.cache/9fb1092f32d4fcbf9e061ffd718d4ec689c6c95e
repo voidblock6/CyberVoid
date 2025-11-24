@@ -1,4 +1,4 @@
-// 1.21.1	2025-11-24T17:24:23.9772071	Recipes
+// 1.21.1	2025-11-24T19:45:43.2105067	Recipes
 20f8627ac51f64f650f6bf203916893db2d4cec5 data/cybervoid/advancement/recipes/misc/blockcoin_block.json
 c03771667f1746ce7e4c3eb8b263e12ff055322d data/cybervoid/advancement/recipes/misc/capacitor.json
 b632ddeec3076e40fba45b6fcd085be8d403f371 data/cybervoid/advancement/recipes/misc/iron_sheet.json
@@ -6,6 +6,7 @@ fa553dc8424ce081b64299b0d677fb91816d6ac3 data/cybervoid/advancement/recipes/misc
 7bb5f1da4f112ad9dc5ffbacbee62fcfe12246cd data/cybervoid/advancement/recipes/misc/silicon_block.json
 657c01fdcfef122df17117b50019d07c8313f4ca data/cybervoid/advancement/recipes/misc/silicon_dust.json
 efe635ff56d0bde0b6d9ff2d6c3d41d04b070691 data/cybervoid/advancement/recipes/misc/silicon_ingot.json
+a601e44f0300e9f83b766f482dad7704c4ed5e2c data/cybervoid/advancement/recipes/misc/silicon_sheet.json
 52e0aba02a9714d3f1263238e5138c8d08031161 data/cybervoid/advancement/recipes/misc/transistor.json
 c85c10cd8bda0c850ebbf367055f069731f0bcc8 data/cybervoid/recipe/blockcoin_block.json
 4657c147feb9073696bafb7d2fb764a2018e6b87 data/cybervoid/recipe/capacitor.json
@@ -14,6 +15,7 @@ af9cd8759637ae7ae7f1bf7ef8a828cbfa035dd1 data/cybervoid/recipe/resistor.json
 b3a7087eb977e6329f6ff28d8a2841d7d63f575a data/cybervoid/recipe/silicon_block.json
 a54195d075d40f0004cf0e455ec276222d5639cf data/cybervoid/recipe/silicon_dust.json
 c5c7e4ec70dd639d7c868976006608c17627bdd4 data/cybervoid/recipe/silicon_ingot.json
+b4557d89e6e8660ce17e3d38c8e5e011cef61a73 data/cybervoid/recipe/silicon_sheet.json
 7cfe9bf2a481daed54951bd24a22dfa3a876b014 data/cybervoid/recipe/transistor.json
 4a4f78904e8694fe8a8596a850a6134519d9044a data/minecraft/advancement/recipes/misc/iron_ingot.json
 ff4b973733cdb0d5f3688c8048e4d449f3af3801 data/minecraft/advancement/recipes/misc/silicon_ingot_from_smelting_deepslate_silicon_ore.json

@@ -21,6 +21,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.HAMMER.get());
         basicItem(ModItems.IRON_HAMMER.get());
 
+        basicItem(ModItems.SILICON_SHEET.get());
         basicItem(ModItems.IRON_SHEET.get());
         basicItem(ModItems.IRON_ROD.get());
         basicItem(ModItems.RESISTOR.get());
@@ -31,6 +32,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.RAW_SILICON.get());
         basicItem(ModItems.SILICON_DUST.get());
         basicItem(ModItems.SILICON_INGOT.get());
+
+        basicItem(ModItems.PlACEHOLDER1.get());
 
 
     }

@@ -54,6 +54,12 @@ public class ModItems {
     public static final DeferredItem<Item> IRON_SHEET = ITEMS.register("iron_sheet",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> SILICON_SHEET = ITEMS.register("silicon_sheet",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> PlACEHOLDER1 = ITEMS.register("placeholder1",
+            () -> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
