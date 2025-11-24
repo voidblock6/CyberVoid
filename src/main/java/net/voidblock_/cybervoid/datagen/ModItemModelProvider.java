@@ -21,6 +21,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.HAMMER.get());
         basicItem(ModItems.IRON_HAMMER.get());
 
+        basicItem(ModItems.IRON_SHEET.get());
         basicItem(ModItems.IRON_ROD.get());
         basicItem(ModItems.RESISTOR.get());
         basicItem(ModItems.CAPACITOR.get());

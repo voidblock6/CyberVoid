@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "cybervoid:iron_rod"
+    },
+    "W": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "IWI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cybervoid:resistor"
+  }
+}

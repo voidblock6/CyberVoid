@@ -28,6 +28,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CAPACITOR);
                         output.accept(ModItems.MOTHERBOARD);
                         output.accept(ModItems.IRON_ROD);
+                        output.accept(ModItems.IRON_SHEET);
                         output.accept(ModItems.RAW_SILICON);
                         output.accept(ModItems.SILICON_DUST);
                         output.accept(ModItems.SILICON_INGOT);
