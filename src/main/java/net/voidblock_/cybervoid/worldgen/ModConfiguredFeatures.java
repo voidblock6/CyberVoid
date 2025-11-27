@@ -17,6 +17,7 @@ import net.voidblock_.cybervoid.block.ModBlocks;
 
 import java.util.List;
 
+//cf -> pf -> bm
 
 public class ModConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_SILICON_ORE_KEY = registerKey("silicon_ore");

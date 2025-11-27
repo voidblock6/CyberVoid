@@ -1,7 +1,8 @@
-// 1.21.1	2025-11-24T19:45:43.2105067	Recipes
+// 1.21.1	2025-11-25T12:37:50.6664311	Recipes
 20f8627ac51f64f650f6bf203916893db2d4cec5 data/cybervoid/advancement/recipes/misc/blockcoin_block.json
 c03771667f1746ce7e4c3eb8b263e12ff055322d data/cybervoid/advancement/recipes/misc/capacitor.json
 b632ddeec3076e40fba45b6fcd085be8d403f371 data/cybervoid/advancement/recipes/misc/iron_sheet.json
+73a15edd1415d782a21745c43a43d3ed74f49b0b data/cybervoid/advancement/recipes/misc/motherboard.json
 fa553dc8424ce081b64299b0d677fb91816d6ac3 data/cybervoid/advancement/recipes/misc/resistor.json
 7bb5f1da4f112ad9dc5ffbacbee62fcfe12246cd data/cybervoid/advancement/recipes/misc/silicon_block.json
 657c01fdcfef122df17117b50019d07c8313f4ca data/cybervoid/advancement/recipes/misc/silicon_dust.json
@@ -11,6 +12,7 @@ a601e44f0300e9f83b766f482dad7704c4ed5e2c data/cybervoid/advancement/recipes/misc
 c85c10cd8bda0c850ebbf367055f069731f0bcc8 data/cybervoid/recipe/blockcoin_block.json
 4657c147feb9073696bafb7d2fb764a2018e6b87 data/cybervoid/recipe/capacitor.json
 7e1a95091f3ababbe3331f00bf7c65dac44a33af data/cybervoid/recipe/iron_sheet.json
+c227b02b835cb905f39c8c1cba16c44803da0af3 data/cybervoid/recipe/motherboard.json
 af9cd8759637ae7ae7f1bf7ef8a828cbfa035dd1 data/cybervoid/recipe/resistor.json
 b3a7087eb977e6329f6ff28d8a2841d7d63f575a data/cybervoid/recipe/silicon_block.json
 a54195d075d40f0004cf0e455ec276222d5639cf data/cybervoid/recipe/silicon_dust.json

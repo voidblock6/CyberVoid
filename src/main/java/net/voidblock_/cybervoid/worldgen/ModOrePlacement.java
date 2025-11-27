@@ -4,6 +4,8 @@ import net.minecraft.world.level.levelgen.placement.*;
 
 import java.util.List;
 
+//cf -> pf -> bm
+
 public class ModOrePlacement {
     public static List<PlacementModifier> orePlacement(PlacementModifier pCountPlacement, PlacementModifier pHeightRange) {
         return List.of(pCountPlacement, InSquarePlacement.spread(), pHeightRange, BiomeFilter.biome());

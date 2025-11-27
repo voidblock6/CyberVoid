@@ -78,9 +78,21 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         //resistor
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RESISTOR.get())
                 .pattern("IWI")
-                .define('I', ModItems.IRON_ROD.get())
+                .define('I', ModItems.IRON_ROD)
                 .define('W', ItemTags.PLANKS)
                 .unlockedBy("has_wooden_plank", has(ItemTags.PLANKS))
+                .save(recipeOutput);
+
+        //motherboard
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.MOTHERBOARD.get())
+                .pattern("TCT")
+                .pattern("RER")
+                .pattern("TCT")
+                .define('T', ModItems.TRANSISTOR.get())
+                .define('E', ModItems.EMPTY_CIRCUIT.get())
+                .define('R', ModItems.RESISTOR.get())
+                .define('C', ModItems.CAPACITOR.get())
+                .unlockedBy("has_empty_circuit", has(ModItems.EMPTY_CIRCUIT))
                 .save(recipeOutput);
 
         //shapeless recipes

@@ -13,6 +13,8 @@ import net.neoforged.neoforge.common.world.BiomeModifiers;
 import net.neoforged.neoforge.registries.NeoForgeRegistries;
 import net.voidblock_.cybervoid.CyberVoid;
 
+//cf -> pf -> bm
+
 public class ModBiomeModifiers {
     public static final ResourceKey<BiomeModifier> ADD_SILICON_ORE = registerKey("add_silicon_ore");
 //copy for different dim ^
