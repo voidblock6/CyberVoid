@@ -18,13 +18,25 @@ import java.util.List;
 //cf -> pf -> bm
 public class ModPlacedFeatures {
 public static final ResourceKey<PlacedFeature> SILICON_ORE_PLACED_KEY = registerKey("silicon_ore_placed");
+    public static final ResourceKey<PlacedFeature> BLOCKCOIN_ORE_PLACED_KEY = registerKey("blockcoin_ore_placed");
+
 //copy for different dim ^
+
+
 
     public static void bootstrap(BootstrapContext<PlacedFeature> context) {
         var configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
 register(context, SILICON_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_SILICON_ORE_KEY),
-        ModOrePlacement.commonOrePlacement(9, HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(40))));
+        ModOrePlacement.commonOrePlacement(9,
+                HeightRangePlacement.uniform(VerticalAnchor.absolute(-64),
+                        VerticalAnchor.absolute(40))));
+
+        register(context, BLOCKCOIN_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BLOCKCHAIN_BLOCKCOIN_ORE_KEY),
+                ModOrePlacement.commonOrePlacement(5,
+                        HeightRangePlacement.uniform(VerticalAnchor.absolute(175),
+                                VerticalAnchor.absolute(500))));
+
 //copy for different dim ^
 
 

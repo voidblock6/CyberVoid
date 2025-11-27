@@ -17,6 +17,7 @@ import net.voidblock_.cybervoid.CyberVoid;
 
 public class ModBiomeModifiers {
     public static final ResourceKey<BiomeModifier> ADD_SILICON_ORE = registerKey("add_silicon_ore");
+    public static final ResourceKey<BiomeModifier> ADD_BLOCKCOIN_ORE = registerKey("add_blockcoin_ore");
 //copy for different dim ^
 
     public static void bootstrap(BootstrapContext<BiomeModifier> context) {
@@ -28,11 +29,12 @@ biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
              HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.SILICON_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
 
-        // Example for individual Biome
-        // context.register(ADD_BISMUTH_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
-        //         HolderSet.direct(biomes.getOrThrow(Biomes.PLAINS), biomes.getOrThrow(Biomes.SAVANNA)),
-        //         HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.BISMUTH_ORE_PLACED_KEY)),
-        //         GenerationStep.Decoration.UNDERGROUND_ORES));
+        context.register(ADD_BLOCKCOIN_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+                biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.BLOCKCOIN_ORE_PLACED_KEY)),
+                GenerationStep.Decoration.UNDERGROUND_ORES));
+
+
 
     }
 

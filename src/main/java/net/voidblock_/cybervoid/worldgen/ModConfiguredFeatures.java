@@ -21,6 +21,7 @@ import java.util.List;
 
 public class ModConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_SILICON_ORE_KEY = registerKey("silicon_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> BLOCKCHAIN_BLOCKCOIN_ORE_KEY = registerKey("blockcoin_ore");
 
     // copy above and change overworld and add dimension name to last part for ore gen in other dimensions
 
@@ -33,8 +34,14 @@ public class ModConfiguredFeatures {
            OreConfiguration.target(stoneReplaceables, ModBlocks.SILICON_ORE.get().defaultBlockState()),
                 OreConfiguration.target(deepslateReplaceables, ModBlocks.DEEPSLATE_SILICON_ORE.get().defaultBlockState()));
 
+        List<OreConfiguration.TargetBlockState> blockchainBlockCoinOres = List.of(
+                OreConfiguration.target(stoneReplaceables, ModBlocks.BLOCKCOIN_BLOCK.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, ModBlocks.BLOCKCOIN_BLOCK.get().defaultBlockState()));
+
+
         register(context,OVERWORLD_SILICON_ORE_KEY, Feature.ORE, new OreConfiguration(overworldSiliconOres, 8));
-        
+        register(context,BLOCKCHAIN_BLOCKCOIN_ORE_KEY, Feature.ORE, new OreConfiguration(blockchainBlockCoinOres, 5));
+
     }
 
 
