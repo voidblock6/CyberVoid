@@ -1,0 +1,27 @@
+{
+  "feature": "cybervoid:blockcoin_ore",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 5
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "max_inclusive": {
+          "absolute": 500
+        },
+        "min_inclusive": {
+          "absolute": 175
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

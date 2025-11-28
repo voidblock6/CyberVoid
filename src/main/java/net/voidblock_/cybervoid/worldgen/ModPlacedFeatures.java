@@ -34,7 +34,7 @@ register(context, SILICON_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfi
 
         register(context, BLOCKCOIN_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BLOCKCHAIN_BLOCKCOIN_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(5,
-                        HeightRangePlacement.uniform(VerticalAnchor.absolute(175),
+                        HeightRangePlacement.uniform(VerticalAnchor.absolute(140),
                                 VerticalAnchor.absolute(500))));
 
 //copy for different dim ^
